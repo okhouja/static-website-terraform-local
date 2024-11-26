@@ -1,0 +1,14 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+
+# IDE and editor settings
+.vscode/
+
+# Terraform Plan output files (optional)
+*.tfplan
+*.tfstate
+*.tfstate.backup
+
+# Ignore static website files
+static-website/
