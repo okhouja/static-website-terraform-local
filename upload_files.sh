@@ -29,7 +29,7 @@ az storage blob upload-batch \
     --account-name "$STORAGE_ACCOUNT_NAME" \
     --account-key "$STORAGE_ACCOUNT_KEY" \
     --pattern "*" \
-    --overwrite true \
+    --overwrite false \
     --output none
 
 # Step 5: Display Success Message
